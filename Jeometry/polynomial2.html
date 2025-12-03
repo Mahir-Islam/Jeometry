@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Polynomial calculator</title>
+	<link rel="stylesheet" href="main.css">
+	<script type="text/javascript" src="functions.js"></script>
+	<link rel="icon" href="Images/jeom.ico">
+</head>
+<body>
+	<hr class="hr">
+
+	<div class="nav">
+		<a href="index.html">Home</a>
+		<a href="menu.html">Menu</a>
+		<a href="login.html">forums</a>
+		<a href="help.html">help</a>
+		<a class="aboutPage.html">about</a>
+	</div>
+
+	<hr class="hr">
+
+	<h1 class="title w" align="left">Factoriser</h1>
+	<hr style="visibility: hidden;">
+	<div id="QuadGeneralExpression" align="center" style="background-color: rgb(10,10,10,0.3); width: 70%; margin: auto; height: 70%;">
+		<a>Layout: </a><a style="color: red;">ax<sup>2</sup></a><a>+</a><a style="color: blue;">bx</a><a>+</a><a style="color: yellow;">c</a>
+	</div>
+
+	<hr style="visibility: hidden;">
+
+	<div align="center">
+	<div class="tiles">
+		<label>A</label> <input id="poly2a" type="number" name="Anum" class="titleBox" placeholder="0" maxlength="1">
+		<hr style="visibility: hidden;">
+		<label>B</label> <input id="poly2b" type="number" name="Bnum" class="titleBox" placeholder="0" maxlength="1">
+		<hr style="visibility: hidden;">
+		<label>C</label> <input id="poly2c" type="number" name="Cnum" class="titleBox" placeholder="0" maxlength="1">
+	</div>
+
+	<div class="button1 w">
+		<a style="font-size: 75px; color: rgb(0,70,170);" align="center" onclick="poly2();">Calculate</a>
+	</div>
+	<hr style="visibility: hidden; margin: 1px;">
+	<div class="z">
+		<input style="border: 10px rgb(40,80,120) solid; font-size: 40px; font-family: webax; padding: 5px 0px 5px 5px; width:280px; background-color: rgb(10,20,190,0.4); color: white;" placeholder="x=" readonly id="answerPoly2A"></input>
+		<input style="border: 10px rgb(40,80,120) solid; font-size: 40px; font-family: webax; padding: 5px 0px 5px 5px; width:280px; background-color: rgb(10,20,190,0.4); color: white;" placeholder="x=" readonly id="answerPoly2B"></input>
+	</div>
+
+	</div>
+	
+</body>
+</html>
